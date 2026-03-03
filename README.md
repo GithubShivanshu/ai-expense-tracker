@@ -48,16 +48,16 @@ Database → Render PostgreSQL
 
 # 📷 Screenshots
 ### Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./Screenshots/dashboard.png)
 
 ### AI Parsing
-![AI Parsing](./screenshots/ai-parse1.png)
-![AI Parsing](./screenshots/ai-parse2.png)
-![AI Parsing](./screenshots/ai-parse3.png)
+![AI Parsing](./Screenshots/ai-parse1.png)
+![AI Parsing](./Screenshots/ai-parse2.png)
+![AI Parsing](./Screenshots/ai-parse3.png)
 
 ### Expense
-![Manual Expense](./screenshots/manual-expense.png)
-![Summary](./screenshots/expense-list.png)
+![Manual Expense](./Screenshots/manual-expense.png)
+![Summary](./Screenshots/expense-list.png)
 
 ## Setup Backend
 
