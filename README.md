@@ -1,6 +1,12 @@
 # AI Expense Tracker
 
-Production-ready full-stack AI Expense Tracker built with Flask, PostgreSQL, and React.
+An AI-powered expense tracking application that allows users to log expenses manually or by typing natural language (e.g., "Spent 300 on fuel yesterday"). The system intelligently extracts structured data and stores it in a PostgreSQL database with real-time summaries.
+
+Production-ready full-stack app built with React, Flask, PostgreSQL, and OpenAI.
+
+## Live Demo:
+Frontend → https://ai-expense-tracker-jade.vercel.app
+Backend API → [https://ai-expense-tracker-twt8.onrender.com/](https://ai-expense-tracker-twt8.onrender.com/expenses)
 
 ## Features
 - RESTful API with Flask
@@ -13,6 +19,45 @@ Production-ready full-stack AI Expense Tracker built with Flask, PostgreSQL, and
 - Node.js 18+
 - PostgreSQL
 - OpenAI API Key
+
+## How it works
+1. User types expense in natural language.
+2. Backend sends text to OpenAI.
+3. OpenAI returns structured JSON.
+4. Backend validates and stores in PostgreSQL.
+5. Frontend updates summary and expense list.
+
+# Tech Stack
+## Frontend
+React
+Vite
+Axios
+CSS (Custom UI)
+
+## Backend
+Flask
+Flask-SQLAlchemy
+PostgreSQL
+OpenAI API
+Gunicorn
+
+## Deployment
+Backend → Render
+Frontend → Vercel
+Database → Render PostgreSQL
+
+# 📷 Screenshots
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### AI Parsing
+![AI Parsing](./screenshots/ai-parse1.png)
+![AI Parsing](./screenshots/ai-parse2.png)
+![AI Parsing](./screenshots/ai-parse3.png)
+
+### Expense
+![Manual Expense](./screenshots/manual-expense.png)
+![Summary](./screenshots/expense-list.png)
 
 ## Setup Backend
 
